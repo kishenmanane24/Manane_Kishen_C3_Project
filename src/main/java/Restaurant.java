@@ -67,4 +67,8 @@ public class Restaurant {
         return name;
     }
 
+    public void setClosingTime(LocalTime closingTime) {
+        this.closingTime = closingTime;
+
+    }
 }
